@@ -1,14 +1,8 @@
 import { createStore } from 'vuex'
+import bus from './bus.store'
 
 export default createStore({
-  state: {
-  },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
+    bus
   }
 })
